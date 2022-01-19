@@ -1,15 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "license": "MIT",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "eslint-prettier": "*",
+    "tsconfig": "*"
   },
   "scripts": {
     "dev": "lerna run dev --stream",
     "build": "lerna run build --stream",
-    "start": "lerna run start --stream"
-  },
-  "dependencies": {
-    "tsconfig": "*"
+    "start": "lerna run start --stream",
+    "lint": "lerna run lint"
   }
 }
