@@ -5,7 +5,8 @@
   "devDependencies": {
     "lerna": "^4.0.0",
     "eslint-prettier": "*",
-    "tsconfig": "*"
+    "tsconfig": "*",
+    "ui": "*"
   },
   "scripts": {
     "dev": "lerna run dev --stream",
