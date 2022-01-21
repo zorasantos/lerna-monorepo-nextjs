@@ -1,15 +1,21 @@
 {
   "name": "root",
   "private": true,
+  "main": "jest.config.js",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^4.0.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
     "eslint-prettier": "*",
+    "jest": "^27.4.7",
+    "lerna": "^4.0.0",
     "tsconfig": "*",
     "ui": "*"
   },
   "scripts": {
     "dev": "lerna run dev --stream",
+    "test": "lerna run test --stream",
     "build": "lerna run build --stream",
     "start": "lerna run start --stream",
     "lint": "lerna run lint"
